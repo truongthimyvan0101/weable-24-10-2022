@@ -1,0 +1,182 @@
+.w-design{
+    background-image: url('assect/img/f3.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.w-design .video-design{
+    margin-bottom: 5rem;
+}
+.w-design .video-design .left{
+    margin-top: 12rem;
+}
+.w-design .video-design .left img{
+    max-width: 82%;
+}
+.w-design .video-design .right{
+    margin-top: 14rem;
+}
+.w-design .video-design .right img{
+    max-width: 100%;
+}
+.w-design .video .image-design{
+    left: 52%;
+    top: 30%;
+    transform: translateX(-46%);
+}
+.w-design .video .image-design{
+    width: 40%;
+}
+.w-design .video .image-design img{
+    max-width: 100%;
+    
+}
+/* *** css fancyapp video*** */
+#mainCarousel {
+    width: 600px;
+    margin: 0 auto 1rem auto;
+  
+    --carousel-button-color: #170724;
+    --carousel-button-bg: #fff;
+    --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
+      0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  
+    --carousel-button-svg-width: 20px;
+    --carousel-button-svg-height: 20px;
+    --carousel-button-svg-stroke-width: 2.5;
+  }
+  
+  #mainCarousel .carousel__slide {
+    width: 100%;
+    padding: 0;
+  }
+  
+  #mainCarousel .carousel__button.is-prev {
+    left: -1.5rem;
+  }
+  
+  #mainCarousel .carousel__button.is-next {
+    right: -1.5rem;
+  }
+  
+  #mainCarousel .carousel__button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #A78BFA;
+  }
+  
+  #thumbCarousel .carousel__slide {
+    opacity: 0.5;
+    padding: 0;
+    margin: 0.25rem;
+    width: 96px;
+    height: 64px;
+  }
+  
+  #thumbCarousel .carousel__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  #thumbCarousel .carousel__slide.is-nav-selected {
+    opacity: 1;
+  }
+.w-blog{
+    background-image: url('assect/img/f4.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.w-blog .vo-lam-truyen-ky .bg-image{
+  top:26%
+} 
+.w-blog .vo-lam-truyen-ky .contact{
+  max-width: 99%;
+}
+.w-blog .vo-lam-truyen-ky .contact a{
+  position: relative;
+}
+.w-blog .vo-lam-truyen-ky .contact img{
+   max-width: 98%;
+   margin-top: 15rem;
+   margin-bottom: 3rem;
+}
+.w-blog .vo-lam-truyen-ky .contact a .icon-play{
+    top: 50%;
+    left: 41%;
+    width: 18%;
+    transform: translateY(-50%);
+}
+.w-he-thong-mon-phai{
+  background-image: url('assect/img/f5.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 110vh;
+}
+.w-he-thong-mon-phai .outside{
+  height: 100vh;
+}
+.w-he-thong-mon-phai .outside .video-mon-phai{
+  top: 30%
+}
+.w-he-thong-mon-phai .outside .video-mon-phai video{
+  max-width: 100%;
+}
+.w-he-thong-mon-phai .outside .img-wrap{
+  top: 24.5%;
+  left: 35%;
+}
+.w-he-thong-mon-phai .outside .title{
+  display: block;
+  background-image: url(assect/img/f5-1.png);
+  padding: 1rem;
+  z-index: 999;
+  width: 33vh;
+  right: 10%;
+  top: 28%;
+}
+.w-he-thong-mon-phai .outside .title .matrix,
+.w-he-thong-mon-phai .outside .title .list-item{
+  color: #fff;
+}
+.w-he-thong-mon-phai .outside .title .list-item{
+  list-style-type: none;
+}
+
+@media(max-width: 541px){
+  .w-design .video-design .left {
+    margin-top: 8rem;
+  }
+  .w-design .video-design .right {
+    margin-top: 8rem;
+  }
+  .w-design .video .image-design {
+    top: 42%;
+  }
+  
+.w-design .video-design .left img {
+  max-width: 77%;
+}
+  .carousel__slide{
+    padding: 0;
+  }
+  .w-blog .vo-lam-truyen-ky .contact img {
+    margin-top: 6rem;
+  }
+  .w-he-thong-mon-phai .outside .title {
+    padding: 1rem;
+    z-index: 999;
+    width: 17vh;
+    right: 0%;
+    top: 23%;
+  }
+  .w-he-thong-mon-phai .outside .img-wrap {
+    top: 39.5%;
+    left: -25%;
+}
+}
